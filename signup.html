@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script>
+</head>
+<body >
+    
+    <div class="container">
+        <form id="form" action="/">
+            <h1>SIGN UP</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" placeholder="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" placeholder="enter your email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" placeholder="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" placeholder="again password" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p>already have an account?? <a href="index.html">sign in</a> </p>
+        </form>
+    </div>
+</body>
+</html>
